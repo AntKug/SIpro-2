@@ -1,0 +1,31 @@
+@media (max-width: 768px) {    
+    nav{
+      height: 100vh;
+    }
+
+    div.logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #SmartPOS{
+        display: none;
+    }
+
+    .menuul > li.opt{
+        width: 38%;
+    }
+    
+    .menuul > li.opt > span{
+      display: none;
+    }
+}
+  
+
+@media (max-width: 482px){
+  nav{
+    position: sticky;
+    top: 0;
+  }
+}
